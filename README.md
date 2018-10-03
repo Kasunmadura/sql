@@ -1,1 +1,15 @@
-# sql
+### MYSQL practices
+
+#### Create and delete database
+
+    mysql -p root -u
+    CREATE DATABASE dbCustomerInfo;
+    SHOW DATABASES;
+    DELETE DATABASE dbCustomerInfo;
+
+#### Create Tables
+
+    USE dbCustomerInfo;
+    SHOW TABLES;
+    CREATE TABLE TBLCUSTOMERINFO (CUSTINFOFIRSTNAME VARCHAR(50), CUTOMERINFOLASTNAME VARCHAR(50), CUSTADDRESS VARCHAR(50), CUSTADDRESS2 VARCHAR (50), CUSTINFO VARCHAR(10))
+    DELETE TABLE test;
